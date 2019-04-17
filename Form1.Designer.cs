@@ -55,6 +55,7 @@
             this.numNegAspects = new System.Windows.Forms.NumericUpDown();
             this.lblMiscPenalties = new System.Windows.Forms.Label();
             this.txtMiscPenalties = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numPosAspects)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNegAspects)).BeginInit();
             this.SuspendLayout();
@@ -280,11 +281,21 @@
             this.txtMiscPenalties.Size = new System.Drawing.Size(21, 20);
             this.txtMiscPenalties.TabIndex = 26;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(256, 67);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(20, 23);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // formMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblMiscPenalties);
             this.Controls.Add(this.txtMiscPenalties);
             this.Controls.Add(this.txtNegAspectValue);
@@ -350,6 +361,7 @@
         private System.Windows.Forms.NumericUpDown numNegAspects;
         private System.Windows.Forms.Label lblMiscPenalties;
         private System.Windows.Forms.TextBox txtMiscPenalties;
+        private System.Windows.Forms.Button button1;
     }
 }
 
